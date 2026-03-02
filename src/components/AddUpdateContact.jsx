@@ -62,7 +62,7 @@ const AddUpdateContact = ({ onClose, isOpen, selectedContact }) => {
 
           <button
             type="submit"
-            className="bg-(--dark-yellow) px-4 py-2 self-end rounded"
+            className="bg-(--dark-yellow) px-4 py-2 self-end rounded cursor-pointer"
           >
             {isUpdate ? "Update Contact" : "Add Contact"}
           </button>
